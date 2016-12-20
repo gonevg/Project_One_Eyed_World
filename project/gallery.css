@@ -1,0 +1,95 @@
+	html, head, body, div, header, ul, li, a, h4, p, footer {
+		padding: 0;
+		margin: 0;
+	}
+
+	#wrapper {
+		width: 90%;
+		height: auto;
+		position: absolute;
+		left: 5%;
+	}
+
+	header {
+		background-color: #2B2A2A;; /*black*/
+		color: #DAD8E2;
+		text-align: center;
+		height: 50px;
+	}
+
+	aside {
+		background-color: #FC1616;
+		padding: 5px;
+	}
+
+	ul {
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	li {
+		display: inline-block;
+		background-color: #949191;
+		color: #FFFFFF;
+		font-size: 25px;
+		font-family: "Book Antiqua", "Palatino", "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+		margin-left: 15px;
+	}
+
+	a {
+		text-decoration: none;
+		display: block;
+		padding: 5px;
+		color: #FFFFFF;
+	}
+
+	a.menulink:hover {
+		background-color: #B2B6B6;
+	}
+
+	}
+	main {
+		background-color: #E3F186; /*yellow*/
+		position: absolute;
+		top: 121px;
+		width: 100%; 
+	}
+
+	.flex-container {
+		display: -webkit-flex;
+		display: flex;
+		flex-wrap: wrap;
+		background-color: #2711F8; /*blue*/
+
+	}
+
+	.flex-item {
+		width: 25%;
+		text-align: center;
+		background-color: #7C797C; /*gay*/
+		padding-top: 10px;
+	}
+
+	h4 {
+		text-align: center;
+		color: #FFFFFF;
+		font-family: Helvetica, Arial,  sans-serif;
+
+	}
+
+	footer {
+		width: 100%;
+		position: relative;
+		background-color: #2B2A2A;
+		color: #FFFFFF;
+		text-align: center;
+		height: 40px;
+	}
+
+	p {
+		padding: 10px;
+		font-family: "Trebuchet MS", "Arial", "Helvetica", "sans-serif";
+
+	}
+
